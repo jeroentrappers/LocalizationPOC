@@ -55,18 +55,14 @@
 // Gets the current localized string as in NSLocalizedString.
 - (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value table:(NSString *)tableName;
 {
-    NSString *msg = nil;
-    for( NSBundle *bundle in self.bundles )
-    {
-        msg = [bundle localizedStringForKey:key value:value table:tableName];
-        
-        if( ![msg isEqualToString:key] && ![msg isEqualToString:value])
-        {
-            return msg;
-        }
+    @try {
+        NSBundle *bundle = [self.bundles objectAtIndex:0];
+        return [bundle localizedStringForKey:key value:value table:tableName];
+    }
+    @catch (NSException *exception) {
         
     }
-    return msg;
+    return key;
 }
 
 - (id) localizedViewController: (Class) vcClass
