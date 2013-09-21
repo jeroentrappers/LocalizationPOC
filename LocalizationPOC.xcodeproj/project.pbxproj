@@ -22,6 +22,7 @@
 		36CE7298154C9C3D0050104C /* ResourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CE729A154C9C3D0050104C /* ResourceViewController.xib */; };
 		36CE72B7154D4EE20050104C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36CE72B9154D4EE20050104C /* Localizable.strings */; };
 		36CE72BF154E7B520050104C /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE72C1154E7B520050104C /* flag.png */; };
+		DFCB7A6917E24DD0002BAA25 /* LocalizationPOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DFCB7A6817E24DD0002BAA25 /* LocalizationPOC.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		36CE72C2154E7B590050104C /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/flag.png; sourceTree = "<group>"; };
 		36CE72C3154E7B5B0050104C /* nl-BE */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nl-BE"; path = "nl-BE.lproj/flag.png"; sourceTree = "<group>"; };
 		36CE72C4154E7B5C0050104C /* nl */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nl; path = nl.lproj/flag.png; sourceTree = "<group>"; };
+		DFCB7A6817E24DD0002BAA25 /* LocalizationPOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LocalizationPOC.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		36CE70BE154C73100050104C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFCB7A6817E24DD0002BAA25 /* LocalizationPOC.podspec */,
 				36CE70BF154C73100050104C /* LocalizationPOC-Info.plist */,
 				36CE70C0154C73100050104C /* InfoPlist.strings */,
 				36CE70C3154C73100050104C /* main.m */,
@@ -197,6 +200,7 @@
 			files = (
 				36CE70C2154C73100050104C /* InfoPlist.strings in Resources */,
 				36CE70CE154C73100050104C /* ViewController.xib in Resources */,
+				DFCB7A6917E24DD0002BAA25 /* LocalizationPOC.podspec in Resources */,
 				36CE7291154C98AC0050104C /* MessageViewController.xib in Resources */,
 				36CE7298154C9C3D0050104C /* ResourceViewController.xib in Resources */,
 				36CE72B7154D4EE20050104C /* Localizable.strings in Resources */,
